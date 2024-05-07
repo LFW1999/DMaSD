@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url('images/darkness.jpg');
+		background-image: url('images/fancy-cushion.jpg');
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -109,9 +109,15 @@ input, select, textarea {
 		font-weight: 300;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+	font-weight: bold;
+	color: #fff;
+	line-height:1.25em;
+	}
+
+	h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #fff;
 		line-height: 1.25em;
 	}
 
@@ -2164,7 +2170,6 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
 		margin: 0 0 2em 0;
 		padding: 6em 0 6em 0;
 	}
