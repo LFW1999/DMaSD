@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url('images/darkness.webp');
+		background-image: url('images/darkness.jpg');
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -232,6 +232,7 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
+		padding: 0 20px;
 	}
 
 		@media screen and (max-width: 1680px) {
