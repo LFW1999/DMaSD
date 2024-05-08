@@ -1762,7 +1762,7 @@ input, select, textarea {
 		}
 
 		section.special > header, section.special > footer, article.special > header, article.special > footer {
-			text-align: center;
+			text-align: inherit;
 		}
 
 	.row > section, .row > article {
@@ -1775,10 +1775,10 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			font-size: 1.5em;
+			font-size: 1.2em;
 			margin: 1em 0 2em 0;
 			line-height: 1.5em;
-			text-align: inherit;
+			text-align: left;
 		}
 
 	footer {
