@@ -112,7 +112,8 @@ input, select, textarea {
 	h1 {
 	font-weight: bold;
 	color: #fff;
-	line-height:1.25em;
+	line-height: 1.25em;
+	padding: 1em 0 1em 2em
 	}
 
 	h2, h3, h4, h5, h6 {
