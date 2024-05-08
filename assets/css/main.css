@@ -193,6 +193,7 @@ input, select, textarea {
 
 	p {
 		text-align: justify;
+		color: #fff;
 	}
 
 	br.clear {
