@@ -56,17 +56,14 @@
 								</p>
 							</header>
 			<!-- STL Container -->
-				<div id="stl-container" style="width: 500px; height: 500px; margin:0 auto;"></div>
-					<h1>Bottom Teeth STL Viewer</h1>
+				<div id="stl-cont" style="width: 500px; height: 500px; margin: 0 auto;"></div>
 				<script src="stl_viewer.min.js"></script>
 				<script>
-					var stl_viewer=new StlViewer
-					(
-						document.getElementByld("stl_cont"),
+					var stl_viewer = new StlViewer(
+						document.getElementById("stl_cont"),
 						{
-							models:
-							[
-								{assets/Teeth.stl:"viewstl_plugin.stl"}
+							models: [
+								{filename: "assets/Teeth.stl"}
 							]
 						}
 					);
