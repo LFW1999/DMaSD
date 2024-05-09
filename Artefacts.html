@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="stl_viewer.min.js"></script>
 	</head>
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
@@ -46,38 +47,30 @@
 
 			<!-- Main -->
 				<div class="wrapper style1">
-
-					<div class="container">
-						<article id="main" class="special">
-							<header>
-								<h2><a>RMADSD Artefacts</a></h2>
-								<p>
-									Below are the artefacts for the RMADSD section. This includes a lower set of teeth on a placeholder jaw, as well as designs for the shaft/bearings for the jawhinge.
-								</p>
-							</header>
-			<!-- STL Container -->
-				<head>
-					<title>Viewstl Javascript Plugin - Simple Example</title>
-				</head>
-
-				<body>
-					<div id="stl_cont" style="width:500px;height:500px;margin:0 auto;"></div>
-
-					<script src="stl_viewer.min.js"></script>        
-					<script>
-						var stl_viewer=new StlViewer
-						(
-							document.getElementById("stl_cont"),
-							{
-							 models:
-								[
-									{assets/Teeth.stl:"viewstl_plugin.stl"}
-								]
-							}
-						);
-					</script>
-        
-				</body>
+            <div class="container">
+                <article id="main" class="special">
+                    <header>
+                        <h2><a>RMADSD Artefacts</a></h2>
+                        <p>
+                            Below are the artefacts for the RMADSD section. This includes a lower set of teeth on a placeholder jaw, as well as designs for the shaft/bearings for the jawhinge.
+                        </p>
+                    </header>
+                    <!-- STL Container -->
+                    <div id="stl-cont" style="width: 500px; height: 500px; margin: 0 auto;"></div>
+                    <!-- Initialize the STL viewer -->
+                    <script>
+                        var stl_viewer = new StlViewer(
+                            document.getElementById("stl-cont"),
+                            {
+                                models: [
+                                    {filename: "assets/Teeth.stl"}
+                                ]
+                            }
+                        );
+                    </script>
+                </article>
+            </div>
+        </div>
 			<!-- Footer -->
 				<div id="footer">
 					<div class="container">
