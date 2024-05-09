@@ -56,9 +56,21 @@
 								</p>
 							</header>
 			<!-- STL Container -->
-							<div id="stl-container" style="width: 100%; height: 500px;"></div>
-
-
+				<div id="stl-container" style="width: 500px; height: 500px; margin:0 auto;"></div>
+					<h1>Bottom Teeth STL Viewer</h1>
+				<script src="stl_viewer.min.js"></script>
+				<script>
+					var stl_viewer=new StlViewer
+					(
+						document.getElementByld("stl_cont"),
+						{
+							models:
+							[
+								{assets/Teeth.stl:"viewstl_plugin.stl"}
+							]
+						}
+					);
+				</script>
 			<!-- Footer -->
 				<div id="footer">
 					<div class="container">
@@ -101,8 +113,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-			<script src="https://threejs.org/examples/js/loaders/STLLoader.js"></script>
+			<script src="assets/js/stl_viewer.min.js"></script>
 
 	</body>
 </html>
